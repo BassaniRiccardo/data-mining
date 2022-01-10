@@ -14,18 +14,6 @@ from statsmodels.stats.contingency_tables import mcnemar
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import confusion_matrix, accuracy_score, precision_score, recall_score
 
-# TODO  - Growing the trees takes around 4 minutes. Should we serialize them and give an option to load them?
-#         Can we submit pickle files?
-#       - ANSWER: No probs, the code will only be tested on small datasets
-#       - offer prompt to choose between options 1/2/3? or just delete the credit and pima stuff?
-#       - ANSWER: only the 4 functions + classes/helpers must be submitted, no need for code doing analysis/prints.
-#       -         no need for main()!
-#       - order of code? before classes or tree methods?
-#       - ANSWER: it is ok to start with classes
-#       -
-#       - compare accuracy with other groups --> Our results are in line with Table 5 of the article (lin. regression)
-
-# The file assignment1_6876005_6866840_5648122 contains the code to submit, cleaned and documented
 
 # global variable to load the models
 LOAD = True
